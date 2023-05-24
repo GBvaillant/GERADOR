@@ -6,8 +6,10 @@
 }
 
 body {
-    background-color: #000000;
-    background-image: linear-gradient(160deg, #000000 0%, #450232 50%, #830673 100%);
+    background: rgb(0, 99, 189);
+    background: linear-gradient(0deg, rgba(0, 99, 189, 1) 0%, rgba(2, 3, 31, 1) 100%);
+    /* background-color: #000000;
+    background-image: linear-gradient(160deg, #000000 0%, #450232 50%, #830673 100%);  */
     width: 100%;
     height: 100vh;
     display: flex;
@@ -20,7 +22,7 @@ body {
     max-width: 600px;
     margin-bottom: 24px;
     /* background: rgb(2, 0, 36); */
-    /* background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(161, 14, 98, 1) 0%, rgba(123, 21, 159, 1) 0%, rgba(255, 0, 128, 1) 52%, rgba(80, 50, 148, 1) 100%, rgba(0, 212, 255, 1) 100%); */ 
+    /* background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(161, 14, 98, 1) 0%, rgba(123, 21, 159, 1) 0%, rgba(255, 0, 128, 1) 52%, rgba(80, 50, 148, 1) 100%, rgba(0, 212, 255, 1) 100%); */
 
 }
 
@@ -47,7 +49,7 @@ body {
 
 .button-cta {
     height: 40px;
-    background-color: #24001a;
+    background-color: rgb(0, 34, 65);
     border: 0;
     border-radius: 4px;
     cursor: pointer;
@@ -104,7 +106,7 @@ body {
     transition: all 0.5s ease-in-out;
 }
 
-.hide { 
+.hide {
     display: none;
 }
 
@@ -112,4 +114,9 @@ body {
     visibility: visible;
     bottom: 58px;
     opacity: 1;
+}
+
+#criador { 
+    margin-top: 150px;
+    text-align: center;
 }
